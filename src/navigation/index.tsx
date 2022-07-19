@@ -12,6 +12,7 @@ const AppNavigation = () => {
       <AppNavStack.Screen
         name={ONBOARDING_STACK}
         component={OnboardingNavigation}
+        options={{animation: 'none', headerShown: false}}
       />
       <AppNavStack.Screen name={TAB_NAV} component={TabNavigation} />
     </AppNavStack.Navigator>

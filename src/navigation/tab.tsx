@@ -3,6 +3,7 @@ import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import {View, Text, Button} from 'react-native';
 import {
   CUSTOM_SCOPE_STACK,
+  DAILY_RISK2,
   HOME_SCREEN,
   PARAMETERS_STACK,
   SEARCH_STACK,
@@ -16,10 +17,6 @@ function HomeScreen({navigation}) {
   return (
     <View style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
       <Text>HomeScreen</Text>
-      <Button
-        title="go to DailyRisk2Screen"
-        onPress={() => navigation.navigate(DAILY_RISK2)}
-      />
     </View>
   );
 }

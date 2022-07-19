@@ -7,9 +7,7 @@ export const SEARCH_STACK = 'SEARCH_STACK';
 export const CUSTOM_SCOPE_STACK = 'CUSTOM_SCOPE_STACK';
 
 // ONBOARDING_STACK
-export const DAILY_RISK = 'DAILY_RISK';
-export const RISK_SCRORE = 'RISK_SCRORE';
-export const DAILY_RISK2 = 'DAILY_RISK2';
+export const ONBOARDING = 'ONBOARDING';
 export const LOGIN = 'LOGIN';
 
 //
